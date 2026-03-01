@@ -1,17 +1,22 @@
 .wrapper {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(220, 218, 218, 0.95);
   padding: 20px;
-  text-align: right;
   border-radius: 20px;
+  align-content: center;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.title{
+  opacity: 0.9;
+  font-size: 16px;
 }
 
-@media only screen and (max-width: 475px) {
-  .content {
-    grid-template-columns: 1fr 2fr;
-  }
-}
+

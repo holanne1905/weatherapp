@@ -1,18 +1,54 @@
 .wrapper {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  padding: 20px;
+  
+
+  background: linear-gradient(180deg, #5f6fff 0%, #4a5bdc 100%);
   text-align: center;
-  padding: 30px;
+  
+  
+  
+  
+}
+.center {
+  text-align: center;
+  margin-top: 40px;
 }
 
-.location {
-  font-size: 38px;
-  margin-bottom: 10px;
-}
-
-.description {
-  font-size: 24px;
+.weatherIcon {
+  width: 120px;
   margin-bottom: 20px;
+  
 }
 
 .temperature {
-  font-size: 84px;
+  font-size: 70px;
+  font-weight: 400px;
+  margin: 0;
+  color: white;
 }
+
+.description {
+  font-size: 20px;
+  opacity: 1;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.location {
+  margin-top: 10px;
+  font-size: 40px;
+  opacity: 1;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.feelslike{
+  font-size: 30px;
+  opacity: 1;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
