@@ -45,3 +45,33 @@ Any feature requests and pull requests are welcome!
 ## License
 
 The project is under [MIT license](https://choosealicense.com/licenses/mit/).
+
+
+
+Mise à jour du projet
+
+Ce projet est une **amélioration d’une version existante**.
+
+L’ancienne API a été remplacée par **Open-Meteo** pour :
+- une meilleure fiabilité
+- des données gratuites et sans clé API
+- une simplification du code
+
+---
+
+Lien du projet
+
+GitHub :  
+https://github.com/holanne1905/weatherapp
+
+
+Ce que j’ai appris
+
+- Consommation d’une API REST
+- Gestion de données asynchrones
+- Manipulation de composants React
+- Structuration d’un projet frontend
+
+'git clone https://github.com/holanne1905/weatherapp'
+
+
